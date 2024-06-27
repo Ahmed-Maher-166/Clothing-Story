@@ -21,7 +21,7 @@ loginBtn.addEventListener ("click" , function(e){
         if ( (getEmail === username.value.trim() &&     getPassword === password.value.trim() )  )
         {
             setTimeout ( () => {
-                window.location = "shop.html"
+                window.location = "index.html"
             } , 100)
         } else {
             console.log("Email or password is wrong ")
