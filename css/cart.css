@@ -1,0 +1,38 @@
+
+    .card{  
+         /* max-width: 36rem !important; */
+        border: none !important;
+        box-shadow: 0 3px 10px #0003 !important;
+        text-transform: capitalize !important;
+     
+        margin-top: 30px !important;
+       
+    } 
+    /* #total {
+        background-color: #e9e9e9!important;
+     font-size: 1.5rem !important;
+     margin: auto !important;
+     text-align: center !important;
+     width: fit-content !important;
+     transform: translate(-100%);
+    } */
+
+.totalprice{
+    margin-left:470px !important;
+    /* width: 18rem !important; */
+    font-size: 2rem !important;
+    /* padding: 15px 10px  !important; */
+    padding-top: 10px !important;
+    text-transform: capitalize !important;
+}
+.plus , .minus {
+    padding: 15px !important;
+    width: 3rem !important;
+}
+
+i{
+    position: absolute!important;
+    bottom:  25px !important;
+    right: 25px !important;
+    font-size: 1.3rem !important;
+}

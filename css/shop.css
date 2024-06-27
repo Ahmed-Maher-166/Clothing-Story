@@ -1,0 +1,88 @@
+body{
+    height: 3000px;
+    /* font-family: 'Assistant', sans-serif !important; */
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif !important;
+
+   
+}
+.row{
+
+justify-content: center;
+flex-wrap: wrap !important;
+ /* justify-content: space-between !important; */
+box-shadow: 10px  20px 3px white !important;
+border: none !important;
+}
+.card{
+    /* width: 100% !important; */
+    text-align: left !important;
+    text-align-last: center !important;
+
+    min-width: 18rem !important;
+    border: none !important;
+    box-shadow: 0 3px 10px #0003 !important;
+    text-transform: capitalize !important;
+    /* font-size: 1.3rem !important; */
+    margin-top: 30px !important;
+    /* text-align: justify !important; */
+    /* margin-right: 60px !important; */
+} 
+.btn{
+    width: 100% !important;
+    text-align: center !important;
+    font-size: 1.3rem !important;
+    margin: 0px !important;
+    /* height:55px !important ; */
+    padding: 15px !important;
+    align-items: end !important;
+}
+span{
+    font-size: medium !important;
+    text-align: center !important;
+}
+.card-text{
+    margin: auto;
+    color: rgba(0, 0, 0, .7);
+}
+
+.card-img-top:hover {
+    transform: scale(1.01);
+ 
+  }
+  .card:hover {
+   border:1px solid rgba(0,0,0,.250) !important;
+  }
+
+.search{
+  position: relative !important;
+  top: 7px !important;
+}
+.topnav{
+    background-color: #e9e9e9;
+    color: white;
+    /* margin-left: 130px !important; */
+    position: absolute;
+    top: 0;
+    right: 145px !important;
+}
+.nav{
+    background-color: #e9e9e9;
+    color: white; 
+    margin-bottom: 15px !important;
+}
+#badge{
+    position: absolute !important;
+    top: 30px !important;
+    left: 105px !important;
+    background-color: red;
+    padding: 2px;
+    border-radius: 50% !important;
+}
+.move{
+position: relative;
+}
+.i{
+    position: absolute !important;
+    top:10px !important;
+    left: 75px !important;
+}
